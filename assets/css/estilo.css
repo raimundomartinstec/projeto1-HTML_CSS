@@ -1,0 +1,51 @@
+body{
+    font-family: Helvetica;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    padding: 0; /*Tira o espaçamento entre os elementos*/
+    margin: 0; /*Tira o espaçamento entre os elementos e a margem*/
+
+}
+
+nav{
+    display: flex; /*Faz com que os elementos fiquem um ao lado do outro*/
+    justify-content: space-between; /*Criar um espaço entre os elementos*/
+    padding: 20px;/*Coloca uma espaçmento interno de 20px*/
+    border-bottom: 1px solid #777; /*Coloca uma borda inferior de 1px cinza*/
+}
+
+/*Formatando um elemento encadeado.*/
+nav ul{
+    display: flex; /*Coloca um elemento ao lado do outro*/
+    align-items: center; /*Coloca os elemento centralizados verticalmente*/
+    list-style: none; /*Tira os marcadores da lista*/
+}
+
+ul li{
+    margin-right: 12px; /*Coloca um espaço de 12px a direita de cada item*/
+}
+
+/*Especificando um pouco mais*/
+ul li a{
+    color:#fff; /*Mudando a cor do link para branco*/
+    text-decoration: none /* retira o sublinhado do link*/ 
+}
+
+a:hover{
+    text-decoration: underline /* coloca um sublinhado no estado sobre do mouse*/
+}
+
+h1{
+    font-size: 32px;
+}
+
+img{
+    border: 3px solid rgb(49, 241, 248);
+}
+
+footer{
+    padding: 20px;
+    border-top: 1px solid #666;
+    margin-top: 40px;
+}
